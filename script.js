@@ -1,6 +1,6 @@
 /* Photo en vedette du Barette*/
 const baretteVedette = document.querySelectorAll('.barette-vedette');
-const barette1 = "/Chalets/Barette/Photos/Barette1.jpg"
+const barette1 = "/Pourvoirie-Domaine-des-Patriotes/Chalets/Barette/Photos/Barette1.jpg"
 baretteVedette.forEach((element) =>{
     element.src = barette1
 });
