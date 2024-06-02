@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="page_acceuil.css" rel="stylesheet">
+        <link href="information.css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;900&display=swap');
+        </style>
+        <title>Information</title>
+        <!-- Remove the unnecessary 'charset' meta element -->
+        <!-- Remove the unnecessary 'viewport' meta element -->
         <link href="page_acceuil.css" rel="stylesheet">
         <link href="information.css" rel="stylesheet">
         <style>
@@ -13,14 +21,14 @@
     <body id="body-info"> 
         <header id="header-info" class="header-container">       
              <div id="header-left-info" class="header-left">
-                 <a href="./index.html"><img class="medium-logo" src="Icones/logo.svg"/></a>
+                 <a href="./index.html"><img class="medium-logo" src="Icones/logo.svg" alt="Logo"/></a>
             </div>
                
             <div id="header-right-info" class="header-right">
-                <a href="chalets.html"><img class="chalet-icone" src="Icones\cabin_icone.svg" alt=""/></a>
-                <a href="images.html"><img class="image-icone" src="Icones\image_icone.svg"/></a>
-                <a href=""><img class="info-icone" src="Icones\info_icone.svg"/></a>
-                <a href="Carte\carteDomainedesPatriotes.pdf" target="_blank"><img class="carte-icone" src="Icones\carte_icone.svg"/></a>
+                <a href="chalets.html" title="View Chalets"><img class="chalet-icone" src="Icones\cabin_icone.svg" alt=""/></a>
+                <a href="images.html"><img class="image-icone" src="Icones\image_icone.svg" alt="Image Icon"/></a>
+                <a href=""><img class="info-icone" src="Icones\info_icone.svg" alt="Information Icon"/></a>
+                <a href="Carte\carteDomainedesPatriotes.pdf" target="_blank" title="Voir la carte"><img class="carte-icone" src="Icones\carte_icone.svg" alt="Carte du Domaine des Patriotes"/></a>
                 <button class="reservation" onclick="location.href ='reservation.html';">Réserver un chalet</button>
             </div>
         </header>
@@ -64,7 +72,7 @@
 
             <div class="separator"></div>
             <h3><!---->Notre histoire: </h3>
-            <img id="armoirie-ddp" src="./Icones/armoirie domaine patriotes.png">
+            <img id="armoirie-ddp" src="./Icones/armoirie domaine patriotes.png" alt="Armoirie Domaine des Patriotes">
             <p><!--Histoire de la pourvoirie: -->
                 Le Domaine des Patriotes existe depuis 30 ans et 
                 s'est mérité une excellente réputation au Québec et 
@@ -78,13 +86,9 @@
             
             <div class="separator" ></div>
             <h3><!---->Carte cadeau Latullipe: </h3>
-            <a href="https://latulippe.com/fr/carte-cadeau-virtuelle/" target="_blank"><img class="latulippe" src="./Icones/Latulippe.svg"></a>
+            <a href="https://latulippe.com/fr/carte-cadeau-virtuelle/" target="_blank" rel="noopener" title="Carte cadeau Latulippe"><img class="latulippe" src="./Icones/Latulippe.svg" alt="Carte cadeau Latulippe"></a>
             <p><!--Explication carte cadeau: -->Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae rerum natus magni blanditiis non incidunt vero consequuntur modi ratione autem, in, porro odio consequatur at iusto pariatur aut minima dolorum?</p>
             <div class="separator" ></div>
-
-            <h3><!--Nom des propriétaires-->Les 5 Patriotes: </h3>
-            
-            <p><!--Description des propriétaires-->Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magni quos neque a, fugiat, expedita iure reprehenderit numquam sint nemo quae ut sapiente dolore unde veritatis ipsam. Veritatis, nobis est!</p> -->
-            
+        
         </div>            
     </body>      
